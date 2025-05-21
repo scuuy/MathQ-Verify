@@ -1,5 +1,6 @@
-# <center>🚀 MathQ-Verify</center>
 <div align="center">
+
+# 🚀 MathQ-Verify
 
 **[📄 arXiv Paper](https://arxiv.org/abs/2505.13903 ) | [📊 ValiMath Dataset](https://huggingface.co/datasets/scuuy666/ValiMath )**
 
