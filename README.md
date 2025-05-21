@@ -1,4 +1,4 @@
-# 🚀 MathQ-Verify: Let's Verify Math Questions Step by Step  
+# <center>🚀 MathQ-Verify</center>
 <div align="center">
 
 **[📄 arXiv Paper](https://arxiv.org/abs/2505.13903 ) | [📊 ValiMath Dataset](https://huggingface.co/datasets/scuuy666/ValiMath )**
@@ -7,12 +7,12 @@
 
 ## 🔥 News
 - 📁 **2025-05-21**: The **ValiMath dataset** is now publicly available on [Hugging Face](https://huggingface.co/datasets/scuuy666/ValiMath).
----
+
 
 ## 🌟 Overview  
 Large Language Models (LLMs) often generate **math problems with hidden flaws** (e.g., contradictions, missing premises). To address this, we propose **MathQ-Verify**, a **five-stage pipeline** to rigorously filter ill-posed math questions and ensure dataset reliability.  
 
----
+
 
 ## 🔍 Key Contributions  
 1. **MathQ-Verify Framework**  
@@ -27,12 +27,12 @@ Large Language Models (LLMs) often generate **math problems with hidden flaws** 
    - Improves F1 score by **15%** over baselines on ValiMath.  
    - Ablation studies validate each verification stage's necessity.  
 
----
+
 
 ## 🧩 Framework  
 ![Framework](images/overview.jpg)  
 
----
+
 
 ## 📦 ValiMath Dataset  
 **[Explore on Hugging Face 🤗](https://huggingface.co/datasets/scuuy666/ValiMath)**  
@@ -40,7 +40,7 @@ Large Language Models (LLMs) often generate **math problems with hidden flaws** 
 - **5 Error Types**: Contradictions, incompleteness, domain mismatches, etc.  
 - **Stepwise Annotations**: Per-step validity labels for thorough analysis.  
 
----
+
 
 ## 🛠️ Usage  
 
@@ -72,8 +72,6 @@ python mathq_verify.py --input your_math_questions.json
       url={https://arxiv.org/abs/2505.13903}, 
 }
 ```
-
----
 
 ## 🧠 Contact  
 For questions or feedback, open an issue on GitHub or email [scuuy05@gmail.com](mailto:scuuy05@gmail.com).  
