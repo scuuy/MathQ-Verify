@@ -5,7 +5,8 @@
 </div>
 
 ## 🔥 News
-- 📁 **2025-05-21**: The **ValiMath dataset** has been released for research use.
+- 📁 The **ValiMath dataset** has been released for research use.
+- 📁 The source code will be released **before 2025.8.3**.
 
 ## 🌟 Overview  
 Large Language Models (LLMs) often generate **math problems with hidden flaws**, such as contradictions or missing premises. To address this issue, we propose **MathQ-Verify**, a **five-stage pipeline** designed to rigorously filter ill-posed math questions and improve the overall quality of math datasets.
