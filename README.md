@@ -2,78 +2,68 @@
 
 # 🚀 MathQ-Verify
 
-**[📄 arXiv Paper](https://arxiv.org/abs/2505.13903 ) | [📊 ValiMath Dataset](https://huggingface.co/datasets/scuuy666/ValiMath )**
-
 </div>
 
 ## 🔥 News
-- 📁 **2025-05-21**: The **ValiMath dataset** is now publicly available on [Hugging Face](https://huggingface.co/datasets/scuuy666/ValiMath).
-
+- 📁 The **ValiMath dataset** has been released for research use.
+- 📁 The source code will be released **before 2025.8.3**.
 
 ## 🌟 Overview  
-Large Language Models (LLMs) often generate **math problems with hidden flaws** (e.g., contradictions, missing premises). To address this, we propose **MathQ-Verify**, a **five-stage pipeline** to rigorously filter ill-posed math questions and ensure dataset reliability.  
-
-
+Large Language Models (LLMs) often generate **math problems with hidden flaws**, such as contradictions or missing premises. To address this issue, we propose **MathQ-Verify**, a **five-stage pipeline** designed to rigorously filter ill-posed math questions and improve the overall quality of math datasets.
 
 ## 🔍 Key Contributions  
 1. **MathQ-Verify Framework**  
-   - Detects contaminated instructions, linguistic errors, atomic condition flaws, logical contradictions, and completeness gaps.  
-   - Achieves **90% precision** and **63% recall** via lightweight model voting.  
+   - Detects various types of errors in math problems: contaminated instructions, linguistic errors, atomic condition flaws, logical contradictions, and completeness gaps.  
+   - Achieves **90% precision** and **63% recall** using lightweight model voting strategies.  
 
 2. **ValiMath Benchmark** 📊 
-   - 2,147 math questions with **fine-grained stepwise validity labels** (5 error types).  
-   - [Hugging Face Link 🤗](https://huggingface.co/datasets/scuuy666/ValiMath)  
+   - Contains **2,147 math questions** with **fine-grained stepwise validity labels** across **5 error categories**.  
 
 3. **Comprehensive Evaluation** 📈  
-   - Improves F1 score by **15%** over baselines on ValiMath.  
-   - Ablation studies validate each verification stage's necessity.  
-
-
+   - Outperforms baseline methods by **+15% in F1 score** on the ValiMath benchmark.
+   - Ablation studies demonstrate the effectiveness of each verification stage.
 
 ## 🧩 Framework  
-![Framework](images/overview.jpg)  
+![Framework](images/overview.jpg)
 
-
-
-## 📦 ValiMath Dataset  
-**[Explore on Hugging Face 🤗](https://huggingface.co/datasets/scuuy666/ValiMath)**  
-- **2,147** problems (1,299 correct, 848 incorrect).  
-- **5 Error Types**: Contradictions, incompleteness, domain mismatches, etc.  
-- **Stepwise Annotations**: Per-step validity labels for thorough analysis.  
-
-
+## 📦 Dataset Overview  
+We provide a high-quality dataset for evaluating math question validity. It includes:
+- **2,147** math problems in total (split into correct and incorrect subsets).
+- Each problem is annotated with **step-by-step validity labels**.
+- Supports detailed analysis of error types such as **contradictions**, **incompleteness**, and **domain mismatches**.
 
 ## 🛠️ Usage  
 
-The code are being finalized at full speed and will be uploaded soon.🙂
-<!-- ```bash
-# Clone the repo
-git clone https://github.com/scuuy/MathQ-Verify.git
-cd MathQ-Verify
+The code is currently being prepared and will be uploaded soon.🙂
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Run verification pipeline
+<!-- 
+Example CLI usage (to be updated):
+```bash
 python mathq_verify.py --input your_math_questions.json
-``` -->
+```
+-->
 
 ---
 
-
 ## 📚 Citation  
+If you find our work useful in your research, please cite:
+
 ```bibtex
-@misc{shen2025letsverifymathquestions,
+@misc{anonymous2025mathqverify,
       title={Let's Verify Math Questions Step by Step}, 
-      author={Chengyu Shen and Zhen Hao Wong and Runming He and Hao Liang and Meiyi Qiang and Zimo Meng and Zhengyang Zhao and Bohan Zeng and Zhengzhou Zhu and Bin Cui and Wentao Zhang},
+      author={Anonymous Authors},
       year={2025},
-      eprint={2505.13903},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2505.13903}, 
+      note={Under review}
 }
 ```
 
+---
+
 ## 🧠 Contact  
-For questions or feedback, open an issue on GitHub or email [scuuy05@gmail.com](mailto:scuuy05@gmail.com).  
+This repository is anonymized for review. Please check back after the review process for more information.
+
 *Let’s build reliable math datasets together! 🚀*
+
+---
+
+> ✅ **Note**: This repository is under preparation for public release post-review. Some features and documentation may evolve before official publication.
