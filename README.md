@@ -130,14 +130,3 @@ If you find our work useful in your research, please cite:
       note={Under review}
 }
 ```
-
----
-
-## 🧠 Contact  
-This repository is anonymized for review. Please check back after the review process for more information.
-
-*Let's build reliable math datasets together! 🚀*
-
----
-
-> ✅ **Note**: Some features may be updated as we continue to improve the codebase. Please check for updates regularly.
