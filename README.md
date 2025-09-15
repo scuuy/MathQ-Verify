@@ -123,21 +123,15 @@ Your input file should be a JSON or JSONL file with each entry containing at lea
 If you find our work useful in your research, please cite:
 
 ```bibtex
-@misc{anonymous2025mathqverify,
+@misc{shen2025letsverifymathquestions,
       title={Let's Verify Math Questions Step by Step}, 
-      author={Anonymous Authors},
+      author={Chengyu Shen and Zhen Hao Wong and Runming He and Hao Liang and Meiyi Qiang and Zimo Meng and Zhengyang Zhao and Bohan Zeng and Zhengzhou Zhu and Bin Cui and Wentao Zhang},
       year={2025},
-      note={Under review}
+      eprint={2505.13903},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.13903}, 
 }
 ```
-
----
-
-## 🧠 Contact  
-This repository is anonymized for review. Please check back after the review process for more information.
-
-*Let's build reliable math datasets together! 🚀*
-
----
 
 > ✅ **Note**: Some features may be updated as we continue to improve the codebase. Please check for updates regularly.
